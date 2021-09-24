@@ -91,7 +91,7 @@ TABLE CONTENT
 .text-white{color:var(--color-white)!important;}
 .text-grey-900{color:var(--color-grey-900)}
 .text-grey-700{color:var(--color-grey-700)}
-.text-grey-400{color:var(--color-grey-400)}
+.text-grey-400{color:black;margin-left: -5%;}
 .text-grey-100{color:var(--color-grey-100)}
 .text-brand{color:var(--color-brand-1)}
 .bg-primary{background-color:var(--color-primary)!important;}
@@ -399,7 +399,7 @@ header .search-icon .ti-close,
 .header-title.layout-2{display:flex;justify-content:space-between;align-items:center;}
 
 /*PAGE ABOUT*/
-.shape-arrow{position:absolute;bottom:-60px;left:40%;}
+.shape-arrow{position:absolute;bottom:-60px;left:50%;}
 .shape-document{position:absolute;top:40%;right:15px;}
 .value-box{display:flex;align-items:flex-start;}
 .value-icon{width:45px;margin-right:25px;}
@@ -680,4 +680,10 @@ pre{border:1px solid #eee;font-size:1em;line-height:1.8;margin:15px 0;max-width:
 	80%,
 	100%{box-shadow:0 2.5em 0 -1.3em;}
 	40%{box-shadow:0 2.5em 0 0;}
+}
+
+
+/*Custom*/
+.display-none {
+	display: none !important;
 }
