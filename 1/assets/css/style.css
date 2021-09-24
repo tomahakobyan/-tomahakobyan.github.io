@@ -687,3 +687,11 @@ pre{border:1px solid #eee;font-size:1em;line-height:1.8;margin:15px 0;max-width:
 .display-none {
 	display: none !important;
 }
+
+.bg-brand-5 {
+	background-color: #fff5efab;
+}
+
+.shape-arrow {
+	z-index: 1;
+}
