@@ -46,6 +46,12 @@ TABLE CONTENT
     font-family: 'Source Sans Pro', sans-serif;
 */
 
+
+@font-face {
+    font-family: 'DejaVuSans';
+    src: url("../fonts/DejaVuSans.ttf") format("opentype");
+}
+
 @font-face {
     font-family: 'DejaVuSans Bold';
 	font-weight: bold;
