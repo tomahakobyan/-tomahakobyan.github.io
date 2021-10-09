@@ -2270,3 +2270,7 @@ article.conclusion {
 .conclusion ul li:before {
 	content: '✓ ';
 }
+
+h3.scroll-animated-from-bottom {
+	color: red;
+}
