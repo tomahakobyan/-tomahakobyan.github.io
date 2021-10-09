@@ -2259,18 +2259,20 @@ b.i {
 /*Conclusion Part*/
 
 article.conclusion {
-	padding-bottom: 50px;
+	padding-bottom: 100px;
 }
 .conclusion ul {
 	list-style: none !important;
 }
 .conclusion ul li {
-	line-height: inherit;
+	line-height: inherit;	
+    text-align: justify;
 }
 .conclusion ul li:before {
 	content: '✓ ';
 }
 
-h3.scroll-animated-from-bottom {
-	color: red;
+h3.scroll-animated-from-bottom,
+h4.scroll-animated-from-bottom  {
+	color: #af4d4d;
 }
