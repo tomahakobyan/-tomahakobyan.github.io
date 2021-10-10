@@ -2276,3 +2276,7 @@ h3.scroll-animated-from-bottom,
 h4.scroll-animated-from-bottom  {
 	color: #af4d4d;
 }
+
+.no-padding {
+	padding: 0 !important;
+}
