@@ -56,10 +56,6 @@ TABLE CONTENT
 	src: url("../fonts/DejaVuSans-Bold.ttf") format("opentype");
 }
 
-* {
-	    line-break: anywhere;
-    text-align: justify;
-}
 h1, h2, h3, h4, h5, h6, p {
 	font-family: 'DejaVuSans' !important;
 }
@@ -2278,14 +2274,14 @@ article.conclusion {
 	content: '✓ ';
 }
 
-.conclusion .align-self-center h3 {
+.conclusion .align-self-center p {
     font-size: 20px;
     line-height: 38px;
     font-weight: 200;
     /* width: 100%; */
     color: inherit !important;
     line-break: anywhere;
-    text-align: justify;
+	text-align: justify;
 }
 
 h3.scroll-animated-from-bottom,
