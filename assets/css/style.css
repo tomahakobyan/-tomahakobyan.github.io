@@ -2273,6 +2273,16 @@ article.conclusion {
 	content: '✓ ';
 }
 
+.conclusion .align-self-center h3 {
+    font-size: 20px;
+    line-height: 38px;
+    font-weight: 200;
+    /* width: 100%; */
+    color: inherit !important;
+    line-break: anywhere;
+    text-align: justify;
+}
+
 h3.scroll-animated-from-bottom,
 h4.scroll-animated-from-bottom  {
 	color: #af4d4d;
@@ -2280,6 +2290,7 @@ h4.scroll-animated-from-bottom  {
 
 .no-padding {
 	padding: 0 !important;
+	margin-bottom: 30px;
 }
 
 .scroll-animated-from-bottom img {
